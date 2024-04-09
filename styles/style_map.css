@@ -1,0 +1,98 @@
+#map {
+  width: 65%;
+  height: 100%; 
+  z-index: 0;
+}
+
+/* #menu {
+  background: #4e4c4c;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+  border-radius: 3px;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#menu a {
+  font-size: 13px;
+  color: #ffffff;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+#menu a:last-child {
+  border: none;
+}
+
+#menu a:hover {
+  background-color: #444040;
+  color: #ffffff;
+}
+
+#menu a.active {
+  background-color: #1a171c;
+  color: #ffffff;
+}
+
+#menu a.active:hover {
+  background: #ba051b;
+} */
+/* Style pour déterminer le menu*/
+
+.menu {
+  font: 8px/16px 'Lato', Arial, Helvetica, sans-serif;
+  position: absolute;
+  width: 150px;
+  top: 40px;
+  right: 3px;
+  z-index: 1;
+  padding: 10px;
+}
+
+.menu .menu_overlay {
+  background-color: rgb(30, 28, 28);
+  opacity : 0.9;
+  box-shadow:0 1px 2px rgba(0, 0, 0, 0.50);
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.menu_overlay fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 0px;
+}
+
+.menu_overlay .categoryLabel {
+  display: block;
+  font-weight: bold;
+  margin: 0 0 0px;
+}
+
+.menu label {
+  display: block; /* Afficher chaque entité de la légende sur une ligne différente */
+  margin-bottom: 5px; /* Ajouter un espacement entre chaque entité de la légende */
+  color: white;
+}
+
+/****************/
+/* Contribution */
+/****************/
+
+/* Hide "improve this map" */
+.mapbox-improve-map {
+   display: none;
+}
+
+.mapboxgl-ctrl-attrib a {
+  color: #047fc5;
+}

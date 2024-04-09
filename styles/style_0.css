@@ -1,0 +1,150 @@
+/* Load font: Lato (Google font) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+/* ------------------ */
+/* Font specification */
+/* ------------------ */
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 50;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ----------- */
+/* Left Pannel */
+/* ----------- */
+#right-panel {
+  height:100%;
+  width:35%;
+  background-color: rgb(30, 28, 28);
+}
+
+#right-panel h2 {
+  font-size: 170%;
+  font-weight: bold;
+  color: #047fc5
+}
+
+#right-panel ol, #right-panel ul {
+  padding-left: 3%;
+  color: white;
+}
+
+#info-main, #infos-pts {
+  position:absolute;
+  width:inherit;
+  padding: 1%;
+  color: white;
+}
+
+#infos-pts {
+  display: none;
+  height: inherit;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+#info-main p {
+  margin-top: 3%;
+  font-size: 90%;
+  
+}
+
+#infos-pts p {
+  margin-top: 1%;
+  font-size: 65%;
+}
+
+#infos-pts h3 {
+  margin-top: 3%;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+#infos-pts button {
+  margin-top: 1%;
+  color: white;
+  background-color: #047fc5;
+  padding: 1px 2px;
+  font-size: 70%;
+}
+
+
+#ongletsgeo {position: absolute; 
+  top: 10px; 
+  right: 1px; 
+  z-index: 1;
+  width:480px;
+}
